@@ -1,0 +1,132 @@
+@import url(./Oswald.mixin.css) all;
+@import url(./Roboto.mixin.css) all;
+
+.shell {
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+}
+
+.base {
+    position: relative;
+
+    width: 300px;
+    height: 100vh;
+
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.25));
+}
+
+.container {
+    position: relative;
+
+    top: 40px;
+    
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.logotip {
+    font-size: 48px;
+    font-family: "Oswald - Regular";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.article_search_form {
+    position: relative;
+    
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+}
+
+.shape_strip {
+    position: relative;
+
+    width: 5px;
+    height: 100%;
+
+    background-color: #8F8F92;
+}
+
+.search_field {
+    position: relative;
+
+    width: 76%;
+    height: 100%;
+
+    font-size: 14px;
+
+    padding-left: 16px;
+
+    border: none;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.search_form_button {
+    position: relative;
+
+    width: 30px;
+    height: 30px;
+
+    margin-left: auto;
+    margin-right: 0px;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+}
+
+.magnifying_glass_icon {
+    position: relative;
+
+    opacity: .7;
+
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+.list_of_sections {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    outline: 1px solid red;
+}
+
+.section_selection_button {
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+    height: 43px;
+
+    text-align: left;
+
+    background: rgba(0, 0, 0, 0);
+    border: none;
+
+}
+
+.section_selection_button h5 {
+
+    font-size: 14px;
+    font-family: "Roboto - Light";
+
+    color: #B98E54;
+
+}
